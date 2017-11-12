@@ -5,9 +5,12 @@ How to use gitHub:
   git clone https://github.com/mzasepa/test.git
   git status
   git add tekst.txt
-  git status
-  git commit -m "added tekst.txt"
-  git push
+  git add -A                        //Add all
+  git add .                         //Add all in directory
+  git status                        //Check status
+  git commit -m "added tekst.txt"   //Commit localy
+  git push                          //Send to gitHub
+  git pull                          //Get from gitHub
 
 Global configuration
 git config --global user.name "Michal Zasepa"
