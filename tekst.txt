@@ -1,1 +1,14 @@
 to jest inny plik tekstowy
+
+
+How to use gitHub:
+  git clone https://github.com/mzasepa/test.git
+  git status
+  git add tekst.txt
+  git status
+  git commit -m "added tekst.txt"
+  git push
+
+Global configuration
+git config --global user.name "Michal Zasepa"
+git config --global user.email mzasepa@gmail.com
